@@ -40,10 +40,10 @@ public class bangDiem implements Serializable{
         this.mh = mh;
     }
 
-//    public Object[] toArray()
-//    {
-//        return new Object[]{sv.getMaSV(),sv.getHo()+" "+sv.getTen(),mh.getTenMon()
-//            ,diem};
-//    }
+    public Object[] toArray()
+    {
+        return new Object[]{sv.getMaSV(),sv.getHo()+" "+sv.getTen(),mh.getTenMon()
+            ,diem};
+    }
     
 }
